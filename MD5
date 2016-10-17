@@ -1,0 +1,14 @@
+4001a1559c6825266a3ee1966fb5187f *DESCRIPTION
+a9e067a582326eb288171b94d709ba50 *NAMESPACE
+27b44c7a215c0794dbdf3f08b38b6cc2 *R/RcppExports.R
+6002b99d2611c421029e3802fa12b708 *R/stat_code.R
+ebbc66b28d2add213477e6eb03bb2dc1 *man/funcApplyVar.Rd
+1425cac90bba8088e6371c1c4d688a7c *man/funcRes.Rd
+b9e37e111f8f19397d9bffedff1bfa23 *man/funcResVar.Rd
+b60d4335d24092224cc69eda59e7a33b *man/funcSimX.Rd
+c8e162e0567c4091effb44f11d55dc0c *man/func_coef.Rd
+d7187952f0865b2cc9ff0a40c50ca13f *man/unsys.station.test.Rd
+2b58817fe3d2e3bf128ccff5999cd027 *man/unsystation-package.Rd
+8d46d69896a1f1d31ed76035a0e49d67 *src/Makevars.win
+e74945478fc8720606d92701e2fa7929 *src/RcppExports.cpp
+869c8c85a62c0056c000a2f8607d61f1 *src/sim12.cpp

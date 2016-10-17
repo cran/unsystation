@@ -1,0 +1,5 @@
+useDynLib(unsystation)
+exportPattern("^[[:alpha:]]+")
+importFrom(Rcpp, evalCpp)
+importFrom("stats", "ar", "median", "qnorm", "qt")
+import(doParallel, foreach, parallel, iterators)
