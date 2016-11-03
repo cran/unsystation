@@ -31,14 +31,14 @@ NumericMatrix funcSimX(NumericVector coef, NumericMatrix buffMat){
 // [[Rcpp::export]]
 NumericVector func_coef(NumericVector z, int scale){
 	int len = z.size();
-	int lenw = pow(2, -scale);
+	int lenw = pow(2.0, -scale);
 	int t, j;
 	NumericVector coef(len);
 	NumericVector wave(lenw);
 	NumericVector pad(2*len);
 
 	for(j=0; j<lenw/2; j++){
-		wave(j) = sqrt(pow(2, scale));
+		wave(j) = sqrt(pow(2.0, scale));
 		wave(j+lenw/2) = -wave(j);
 	}
 

@@ -1,7 +1,7 @@
 Package: unsystation
 Type: Package
 Title: Stationarity Test Based on Unsystematic Sub-Sampling
-Version: 0.1.0
+Version: 0.1.1
 Author: Haeran Cho
 Maintainer: Haeran Cho <haeran.cho@bristol.ac.uk>
 Description: Performs a test for second-order stationarity of time series based
@@ -13,6 +13,6 @@ Imports: Rcpp (>= 0.11.5), doParallel, foreach, parallel, iterators
 LinkingTo: Rcpp, RcppArmadillo
 RoxygenNote: 5.0.1
 NeedsCompilation: yes
-Packaged: 2016-10-17 13:41:46 UTC; mahrc
+Packaged: 2016-11-03 13:50:20 UTC; mahrc
 Repository: CRAN
-Date/Publication: 2016-10-17 19:00:11
+Date/Publication: 2016-11-03 19:09:10
