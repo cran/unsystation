@@ -15,8 +15,8 @@ The package implements a new method for testing the stationarity of time series,
 \tabular{ll}{
 Package: \tab unsystation\cr
 Type: \tab Package\cr
-Version: \tab 1.0\cr
-Date: \tab 2016-10-03\cr
+Version: \tab 0.2.0\cr
+Date: \tab 2018-05-23\cr
 License: \tab GPL (>= 2)\cr
 }
 
@@ -30,7 +30,7 @@ Maintainer: Haeran Cho <haeran.cho@bristol.ac.uk>
 }
 
 \references{
-H. Cho (2016) A second-order stationarity of time series based on unsystematic sub-samples. Stat (to appear).
+H. Cho (2016) A second-order stationarity of time series based on unsystematic sub-samples. Stat, vol. 5, 262-277.
 }
 
 \keyword{stationarity test, unsystematic sampling, local stationarity}

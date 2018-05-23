@@ -2,6 +2,7 @@
 // [[Rcpp::depends(RcppArmadillo)]]
 using namespace Rcpp;
 
+//' @keywords internal
 // [[Rcpp::export]]
 NumericMatrix funcSimX(NumericVector coef, NumericMatrix buffMat){
 
@@ -28,6 +29,7 @@ NumericMatrix funcSimX(NumericVector coef, NumericMatrix buffMat){
 
 }
 
+//' @keywords internal
 // [[Rcpp::export]]
 NumericVector func_coef(NumericVector z, int scale){
 	int len = z.size();
@@ -51,6 +53,8 @@ NumericVector func_coef(NumericVector z, int scale){
  	return(coef);
 }
 
+//' @keywords internal
+// [[Rcpp::export]]
 NumericMatrix funcSEMat(int T, int minLength, NumericVector probVec, IntegerVector topCand, IntegerVector bottomCand){
 
   	int i, j, br, s, e, t, iter;
@@ -102,6 +106,7 @@ NumericMatrix funcSEMat(int T, int minLength, NumericVector probVec, IntegerVect
 
 }
 
+//' @keywords internal
 // [[Rcpp::export]]
 List funcRes(NumericMatrix yMat, int M, int minLength, NumericVector probVec, IntegerVector topCand, IntegerVector bottomCand, NumericVector var){
 
@@ -175,6 +180,7 @@ List funcRes(NumericMatrix yMat, int M, int minLength, NumericVector probVec, In
 
 }
 
+//' @keywords internal
 // [[Rcpp::export]]
 NumericMatrix funcResVar(NumericMatrix yMat, NumericMatrix seMat, NumericVector tmpVar){
 
@@ -200,6 +206,7 @@ NumericMatrix funcResVar(NumericMatrix yMat, NumericMatrix seMat, NumericVector 
 
 }
 
+//' @keywords internal
 // [[Rcpp::export]]
 NumericMatrix funcApplyVar(NumericMatrix nullStatMat, int maxLevel, int Msq){
 
