@@ -4,8 +4,17 @@
 \alias{unsys.station.test}
 \title{A second-order stationarity of time series based on unsystematic sub-samples}
 \usage{
-unsys.station.test(x, M = 2000, sig.lev = 0.05, max.scale = NULL,
-  m = NULL, B = 200, eps = 5, use.all = FALSE, do.parallel = 0)
+unsys.station.test(
+  x,
+  M = 2000,
+  sig.lev = 0.05,
+  max.scale = NULL,
+  m = NULL,
+  B = 200,
+  eps = 5,
+  use.all = FALSE,
+  do.parallel = 0
+)
 }
 \arguments{
 \item{x}{input time series}
@@ -24,7 +33,7 @@ unsys.station.test(x, M = 2000, sig.lev = 0.05, max.scale = NULL,
 
 \item{use.all}{if \code{use.all=TRUE}, all \code{M*M} pairs of random intervals are considered in test statistic computation; if \code{use.all=FALSE}, only \code{10*M} pairs are used; regardless, the whole \code{M*M} pairs are considered in test criterion generation}
 
-\item{do.parallel}{number of copies of R running in parallel, if \code{do.parallel = 0}, \%do\% operator is used, see also \link{foreach}}
+\item{do.parallel}{number of copies of R running in parallel, if \code{do.parallel = 0}, \%do\% operator is used, see also \link[foreach]{foreach}}
 }
 \value{
 \item{intervals}{a pair of intervals corresponding to the test statistic, exhibiting the most distinct second-order behaviour}

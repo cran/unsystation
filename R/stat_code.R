@@ -9,7 +9,7 @@
 #' @param B bootstrap sample size
 #' @param eps a parameter used for random interval generation, see the supplementary document of Cho (2016)
 #' @param use.all if \code{use.all=TRUE}, all \code{M*M} pairs of random intervals are considered in test statistic computation; if \code{use.all=FALSE}, only \code{10*M} pairs are used; regardless, the whole \code{M*M} pairs are considered in test criterion generation
-#' @param do.parallel number of copies of R running in parallel, if \code{do.parallel = 0}, \%do\% operator is used, see also \link{foreach}
+#' @param do.parallel number of copies of R running in parallel, if \code{do.parallel = 0}, \%do\% operator is used, see also \link[foreach]{foreach}
 #' @return 
 #' \item{intervals}{a pair of intervals corresponding to the test statistic, exhibiting the most distinct second-order behaviour}
 #' \item{test.stat}{test statistic}
